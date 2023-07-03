@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw; 
+    background: linear-gradient(to right, rgb(65, 75, 78), #d3c8c2) ;
+
+}
+
+.app {
+    width: 800px;
+    min-height: 500px;
+    background: linear-gradient(to right, #d3c8c2, rgb(132, 132, 177)) ;
+    /* width: 800px; */
+
+    border-radius: 4px;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    background-color: white;
+    color: black;
+    /* width: 95%; */
+
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 12px;
+    padding: 12px;
+    align-items: left;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d3c8c2;
+    color: aliceblue;
+}
+
+#next_btn {
+    background-color: aliceblue;
+    color: black;
+    width: 100px;
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;  */
+}
+
+#next_btn:hover {
+    background-color: #d2c7c1;
+    color: white;
+}
+
+.radio {
+    display: none;
+}
+
+.radio:checked+.btn {
+    background-color: #485154;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+  

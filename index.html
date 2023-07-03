@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/css/main.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Simple quiz</h1>
+        <div class="quiz">
+            <h2 id="id_question"> Question goes here</h2>
+            <div id="id_answer">
+                <input type="radio" class="radio" id="1" name="answer">
+                <label onclick="get(this.innerText)" for="1" class="btn">Answer1</label>
+                <input type="radio" class="radio" id="2" name="answer">
+
+                <label onclick="get(this.innerText)" for="2" class="btn">Answer1</label>
+                <input type="radio" class="radio" id="3" name="answer">
+
+                <label onclick="get(this.innerText)"for="3" class="btn">Answer1</label>
+
+                <input type="radio" class="radio" id="4" name="answer">
+                <label onclick="get(this.innerText)" for="4" class="btn">Answer1</label>
+            </div>
+            <div class="next">
+                <button id="next_btn">Next</button>
+            </div>
+            <div>
+                <span class="score_value">0</span>
+                <span> out of 50</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assests/javascript/index.js"></script>
+
+</html>
